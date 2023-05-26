@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+
+li,a,button{
+    color: #ffffff;
+    font-size:16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav_links{
+    list-style: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+}
+
+section{
+    display:grid;
+    place-items: center;
+    align-content: center;
+    min-height: 85vh;
+    margin-bottom: 1000px;
+}
+
+body{
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins' , sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(50px);
+    transform: translateY(-100%);
+
+}
+
+.show{
+    opacity: 1;
+    filter:blur(0);
+    transform: translateY(0%);
+}
+
+
+.cards_hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(50px);
+    transform: translateX(-100%);
+}
+
+.cards_show{
+    opacity: 1;
+    filter:blur(0);
+    transform: translateX(0%);
+}
+
+.card{
+    width: 250px;
+    height:300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: url("images/sukuna.png");
+    background-size:100%;
+}
+.card2{ 
+    background-image: url("images/friends.jpg");
+    background-size:120%;
+}
+.card3{
+    background-image: url("images/hardcover.jpg");
+    background-size:120%;
+}
+.card4{
+    background-image: url("images/armor.jpg");
+    background-size:120%;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+
+
+.text{
+
+    color:white;
+
+}
+
+
+.logo{
+    width: 400px;
+    cursor: pointer;
+    margin-bottom: 0;
+    position:center;
+}
+
+.logo-nav{
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 0;
+    position:left;
+}
+
+.drop-menu-nav{
+    width: 30px;
+    cursor: pointer;
+    margin-bottom: 0;
+    position:right;
+    transition: transform 0.5s;
+}
+
+.drop-menu-nav:hover{
+    transform: translateY(-5px);
+}
+
+.cart-nav{
+    width: 30px;
+    cursor: pointer;
+    margin-bottom: 0;
+    position:right;
+    transition: transform 0.5s;
+    margin-left: 25px;
+}
+
+.cart-nav:hover{
+    transform: translateY(-5px);
+}
+
+/*
+.container-main{
+    width: 100%;
+    height: 100vh;
+    background-color: #c5c6c8;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.container-1{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(bgtest.png);
+    background-position: center;
+    background-color: #20272e;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.container-2{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(images\bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+*/
+
+/* start of hover underline effect*/
+
+.logo:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 30px;
+    width: 0;
+    left: 20;
+    bottom: -10px;
+    transition: 0.3s;
+
+}.logo:hover{
+    color: #ffffff;
+}
+
+
+.logo:hover:after{
+    width: 100%;
+}
+
+/* end of hover underline effect*/
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+
+h1{
+    color:#fff;
+    font-size: 50px;
+}
+
+
+h6{
+    font-size: 60px;
+}
+
+h5{
+    color:white;
+    background-position: center;
+    background-size: cover;
+    background-color: darkmagenta;
+    padding-left: 5px;
+    margin-top:0;
+}
+
+
+p{
+    color:aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-2{
+    background-color: #c5c6c8;
+}
