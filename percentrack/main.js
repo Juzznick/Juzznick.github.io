@@ -12,8 +12,6 @@ document.getElementById("compute").addEventListener("click", function(){
         lef.value= left;
         
     }
-
-
 });
 
 
