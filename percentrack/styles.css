@@ -142,35 +142,28 @@ label:active:after {
 
 
 
-@media (max-width: 768px ) {
-
+@media (max-width: 1000px ) {
     h2 {
-        margin-top: 200px;
+        margin-top: 50px;
         font-size: 50px;
         font-weight: 300;
         margin-bottom: 50px;
     }
-
-    .section{
-        width: 700px;
-        height: 70vh;
-    }
-
     
-
     .button {
 
         width: 150px;
-        height: 2vh;
+        height: 3vh;
         font-size: 20px;
+        position: relative;
     }
 
+    
     h3 {
         font-size: 15px;
         color: #1a1a1a;
         font-weight: 520;
     }
-
     .textbox {
         width: 250px;
         height: 5vh;
@@ -178,24 +171,20 @@ label:active:after {
         box-shadow: inset 4px 4px 6px #ccc, inset -4px -4px 6px #fff;
         border: #ccc;
     }
-
     input[type=textbox] {
         font-size: 30px;
     }
-
     div {
-
         justify-content: space-between;
         text-align: center;
         margin-top: 20px;
     }
-
     h4 {
         font-size: 30px;
         font-weight: 500;
     }
 
-    label {
+    label{
         margin-top: 50px;;
         cursor: pointer;
         width: 80px;
@@ -205,7 +194,6 @@ label:active:after {
         position: relative;
         display: inline-block;
     }
-      
     label:after {
         content: '';
         position: absolute;
@@ -217,20 +205,16 @@ label:active:after {
         border-radius: 90px;
         transition: 0.3s;
     }
-      
     input:checked + label {
         background: #000000;
-    }
-      
+    } 
     input:checked + label:after {
         left: calc(100% - 5px);
         transform: translateX(-100%);
     }
-      
     label:active:after {
         width: 70px;
     }
-
     h5{
         margin-top: 5px;;
         font-size:30px;
