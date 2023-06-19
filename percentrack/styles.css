@@ -24,17 +24,10 @@ body{
 .section{
     margin-top: 60px;;
     padding: 40px 40px 40px 40px;
-    /*background: transparent;
-    backdrop-filter: blur(20px) contrast(100%);
-    border: 2px solid rgba(255, 255, 255, .5);
-    overflow: hidden;*/
-    /* From https://css.glass */
-    background: transparent;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(0deg, #1f0b3a8e 0%, #41187796 35%, #2c538780 100%);
 }
 
 div{
