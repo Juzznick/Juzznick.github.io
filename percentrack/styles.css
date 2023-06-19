@@ -27,7 +27,6 @@ body{
     background: transparent;
     backdrop-filter: blur(20px) contrast(100%);
     border: 2px solid rgba(255, 255, 255, .5);
-    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -232,14 +231,7 @@ label:active:after {
         font-weight: 500;
         color:#ffffff;
     }
-    .section{
-        margin-top: 60px;;
-        padding: 40px 40px 40px 40px;
-        background: transparent;
-        backdrop-filter: blur(20px) contrast(100%);
-        border: 2px solid rgba(255, 255, 255, .5);
-        overflow: hidden;
-    }
+   
 
     
 
