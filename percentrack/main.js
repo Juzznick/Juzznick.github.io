@@ -45,13 +45,3 @@ document.getElementById("clear").addEventListener("click", function(){
 
 
 
-
-
-
-
-
-document.getElementById("toggle").addEventListener("click", function(){
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-    
-});
