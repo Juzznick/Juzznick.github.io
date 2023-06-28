@@ -112,6 +112,16 @@ body{
     margin-top: -.5rem;
 }
 
+.error{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ffff;
+}
+.error p{
+    font-size: 2rem;;
+}
+
 @media (max-width: 1000px ) {
     
 
@@ -148,13 +158,23 @@ body{
         color: #555;
         padding: 5px 2px;
         border-radius: 30px;
-        flex: 1;
+        flex: 0;
         font-size: 2.5rem;
         padding-left: 3rem;
         border-style: solid;
         border-color: #8f17be;
         border-width: medium;
 
+    }
+    
+    .error{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: #ffff;
+    }
+    .error p{
+        font-size: 2rem;;
     }
     
     .searchBar button{
@@ -168,6 +188,7 @@ body{
         border-style: solid;
         border-color: #4D7CFE;
         border-width: medium;
+        flex: .5;
     }
     
     .searchBar button img{
