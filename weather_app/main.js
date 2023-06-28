@@ -6,10 +6,10 @@ const searchBox = document.querySelector(".searchBar input");
 const searchButton = document.querySelector(".searchBar button");
 const weatherIcon = document.querySelector(".weatherIcon");
 
-
 async function getWeather(city_name){
     const response = await fetch(apiUrl + city_name + `&appid=${apiKey}`);
     var data = await response.json();
+    console.log(data);
 
     document.querySelector(".city_name").innerHTML = data.name;
 
@@ -17,7 +17,11 @@ async function getWeather(city_name){
 
     document.querySelector(".humidity").innerHTML = data.main.humidity+ "% ";
 
-    document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
+    document.querySelector(".wind").innerHTML = data.wind.speed;
+
+    document.querySelector(".feelsLike").innerHTML = Math.round(data.main.feels_like) + "°C";
+
+    document.querySelector(".seaLevel").innerHTML = data.main.sea_level;
 
     if(data.weather[0].main == "Clouds"){
         weatherIcon.src = "img/logo-set2/cloudy.png";

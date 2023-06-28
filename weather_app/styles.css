@@ -90,11 +90,11 @@ body{
 .details{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 1.2rem;
     margin-top: 4rem;
-
 }
+
 .weather p{
     color: #ffff;
 }
@@ -107,9 +107,9 @@ body{
     width: 5rem;
     margin-right: 1rem;
 }
-.humidity, .wind{
+.humidity, .wind, .feelsLike, .seaLevel{
     font-size: 2rem;
-    margin-top: -.5rem
+    margin-top: -.5rem;
 }
 
 @media (max-width: 1000px ) {
@@ -175,13 +175,7 @@ body{
         padding-top: .25rem;
     }
 
-    
-
-
-
-
-
-    .humidity, .wind{
+    .humidity, .wind, .feelsLike, .seaLevel{
         font-size: 3rem;
         margin-top: -.5rem
     }
@@ -209,6 +203,14 @@ body{
     .col img{
         width: 6rem;
         margin-right: 1rem;
+    }
+
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1.2rem;
+        margin-top: 4rem;
     }
 }
 
