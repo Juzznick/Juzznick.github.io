@@ -121,7 +121,7 @@ body{
 .error p{
     font-size: 2rem;;
 }
-/*
+
 @media (max-width: 1000px ) {
     
 
@@ -134,7 +134,7 @@ body{
     .logo img{
         width: 100%;
     }
-
+    /*
     .section{
         margin-left:5rem;
         margin-right:5rem;
@@ -236,10 +236,10 @@ body{
         justify-content: space-between;
         padding: 0 1.2rem;
         margin-top: 4rem;
-    }
+    }*/
 }
 
-*/
+
 
 
 
